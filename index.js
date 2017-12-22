@@ -141,6 +141,7 @@ function openMidiPort() {
         }, 5000);
     }
 }
+openMidiPort();
 ;
 socket
     .on('connect', function () {
