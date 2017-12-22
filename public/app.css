@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}
+
+.thing {
+  position: absolute;
+  font-size: 12px;
+  box-shadow: 0 0 10px #333;
+  background: #ccc;
+  top: 100px;
+  text-align: center;
+  padding: 5px;
+  font-family: Monaco;
+  transform: scale(1);
+}
+
+.thing.active {
+  background: #333;
+  color: #ccc;
+}
+
+
+.thing--a { left: 100px; }
+.thing--b { left: 200px; }
+.thing--c { left: 300px; }
+.thing--d { left: 400px; }
+.thing--e { left: 500px; }
+.thing--f { left: 600px; }
+.thing--g { left: 700px; }
+.thing--h { left: 800px; }
+.thing--i { left: 900px; }
