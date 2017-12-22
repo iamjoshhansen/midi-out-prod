@@ -1,0 +1,24 @@
+{
+  "name": "midi-out",
+  "version": "1.0.0",
+  "description": "Reciever of midi signals over websockets, pushing midi cable.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "midi",
+    "switch relay",
+    "drums",
+    "drumkit"
+  ],
+  "author": "Joshua Hansen <josh@iamjoshhansen.com>",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "express": "^4.16.2",
+    "midi": "^0.9.5",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  }
+}
